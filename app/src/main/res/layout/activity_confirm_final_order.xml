@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="5.5"
+    tools:context=".ConfirmFinalOrderActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+     <View
+
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_weight="0.1"
+         />
+
+     <TextView
+         android:textStyle="bold"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_centerHorizontal="true"
+         android:layout_weight="0.8"
+         android:gravity="center"
+         android:text="Confirm your Shippment"
+         android:textColor="@color/rectangle_5_color"
+         android:textSize="30dp">
+
+     </TextView>
+     <View
+
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_weight="0.1"
+         />
+
+     <EditText
+         android:id="@+id/shippment_name"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+          android:layout_weight="0.4"
+         android:textColor="@android:color/black"
+         android:hint="Full Name"></EditText>
+     <View
+
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_weight="0.1"
+         />
+
+     <EditText
+         android:id="@+id/shippment_phone"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.4"
+         android:hint="Phone number"></EditText>
+     <View
+
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_weight="0.1"
+         />
+     <EditText
+         android:id="@+id/shippment_home_address"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.4"
+         android:hint="Home Address"></EditText>
+     <View
+
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.1"
+         />
+     <EditText
+         android:id="@+id/shippment_city_name"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.4"
+         android:hint="City Name"></EditText>
+     <View
+
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.5"
+         />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+          android:layout_weight="0.7"
+         android:orientation="horizontal"
+         android:weightSum="10">
+          <View
+
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+          <Button
+              android:id="@+id/shippment_back_btn"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+               android:layout_weight="3.5"
+               android:background="@drawable/rectangle_5_shape"
+              android:text="Back"
+              android:textColor="@android:color/white"
+              android:textSize="20dp"
+              ></Button>
+          <View
+
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+          <Button
+              android:id="@+id/shippment_confirm_btn"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="3.5"
+              android:background="@drawable/rectangle_5_shape"
+              android:text="Confirm"
+              android:textColor="@android:color/white"
+              android:textSize="20dp"></Button>
+          <View
+
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+     </LinearLayout>
+
+</LinearLayout>

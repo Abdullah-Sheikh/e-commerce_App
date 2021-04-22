@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "940444238285",
+    "firebase_url": "https://khuranas-database.firebaseio.com",
+    "project_id": "khuranas-database",
+    "storage_bucket": "khuranas-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940444238285:android:9132ecc1fcf648388b0484",
+        "android_client_info": {
+          "package_name": "com.comptech.login.khuranas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940444238285-raaggth26fevqrh40t2a1j6dutvn93jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comptech.login.khuranas",
+            "certificate_hash": "4b278af317de363ee9112a6e13f6b2538ec8e3db"
+          }
+        },
+        {
+          "client_id": "940444238285-658s7pdo2gf821ppadihkm3oltqrjh3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5pX5DZufUgDGUWVu29DpxdO5_pS6kuWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940444238285-658s7pdo2gf821ppadihkm3oltqrjh3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

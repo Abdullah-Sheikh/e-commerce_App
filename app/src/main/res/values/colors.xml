@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.Light.NoActionBar"></style>
+    <color name="colorPrimary"> #C53626</color>
+    <color name="colorPrimaryDark">#C53626</color>
+    <color name="colorAccent">#C53626</color>
+
+<color name="login_color">#ffffff</color>
+<color name="powered_by_coderzone_color">#edc034</color>
+<color name="khurana_s_color">#0a0a0a</color>
+
+
+        <color name="_bg__android_mobile___1_color">#ffffff</color>
+        <color name="product_name_color">#070707</color>
+        <color name="price_color">#1fb07c</color>
+        <color name="rectangle_5_color">#faa21d</color>
+        <color name="_1_color">#faa21d</color>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/layout1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total_price_txt"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:text="Total Price = "
+            ></TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/msgtxt"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layout1"
+        android:layout_above="@+id/next_btn"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Congratulations your order will be placed.Soon you will recieved at your door step"></TextView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cart_list"
+        android:layout_below="@+id/layout1"
+        android:layout_above="@+id/next_btn"
+        ></android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:id="@+id/next_btn"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:cardElevation="0dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:contentDescription="product"
+                android:src="@drawable/product" />
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:id="@+id/rectangle_6"
+                android:layout_width="64dp"
+
+                android:layout_height="42dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/product_price_view" />
+
+            <TextView
+                android:id="@+id/product_prices"
+                android:layout_width="53dp"
+                android:layout_height="27dp"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:text="Price"
+                android:autoSizeTextType="uniform"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_weight="1.1">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+<TextView
+    android:id="@+id/product_name"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="6.3"
+    android:text="Product Name"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"></TextView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/product_details_send_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="Details"
+                android:background="@drawable/details_button_drawable"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                ></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
