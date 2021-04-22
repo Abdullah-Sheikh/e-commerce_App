@@ -4,12 +4,28 @@
 
 # Ecommerce Android App:
 This android App is created in **Android Studio** and for database, I use **Firebase Realtime Database**. 
+
+##
+
+
+# See Gifs below to understand flow of App !
     
     
 
 ![GitHub Logo](ezgif.com-video-to-gif-2.gif)
 
 
+
+## 
+
+## Make it Work with Firebase
+
+- Activate firebase database service and set rules as **{ "rules": { ".read": true, ".write": true } }**
+
+- Then import the below attached JSON files to get some dummy data backup *JSON* backup file
+
+
+##
 
 
 feel free to Star or Fork it and make your changes , then make pull request.
