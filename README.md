@@ -31,10 +31,10 @@ We will appreciate your Changes and Review it 😄
 
 ### Target Audience Searches -
 
- _ e commerce android app source code free download
- _ online shopping android app source code
- _ ecommerce android app
- _ e commerce android app template
- _ android shopping cart source code download
- _ android shopping app source code free download
- _ open source android ecommerce app
+ - e commerce android app source code free download
+ - online shopping android app source code
+ - ecommerce android app
+ - e commerce android app template
+ - android shopping cart source code download
+ - android shopping app source code free download
+ - open source android ecommerce app
