@@ -3,7 +3,7 @@
 ##
 
 # Ecommerce Android App:
-This android App is created in **Android Studio** and for database, I use **Firebase Realtime Database**. 
+This android App is created in **Android Studio** and for database, I use **Firebase Realtime Database** for Db. 
 
 
 <img src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/android/android.png" class="rounded-1 mr-3" width="64" height="64" alt="aws"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" class="rounded-1 mr-3" width="64" height="64" alt="firebase">
